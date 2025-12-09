@@ -1,0 +1,13 @@
+# ENDPOINTS - Sistema de Gestión de Empleados
+
+## Autenticación (públicos)
+POST /api/auth/register
+POST /api/auth/login
+
+## Empleados (protegidos con JWT)
+GET    /api/empleados
+GET    /api/empleados/{id}
+POST   /api/empleados
+PUT    /api/empleados
+PATCH  /api/empleados/{id}
+DELETE /api/empleados/{id}
